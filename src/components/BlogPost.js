@@ -9,6 +9,8 @@ function BlogPost() {
         articleText={
           "Dear Reader: Bjarne Stroustrup has the perfect lecture oration."
         }
+        isPublished={true}
+        minutesToRead={1}
       />
       <Comment commentText={"I agree with this statement. - Angela Merkel"} />
       <Comment commentText={"A universal truth. - Noam Chomsky"} />
